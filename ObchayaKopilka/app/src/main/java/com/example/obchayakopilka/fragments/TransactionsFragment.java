@@ -314,6 +314,7 @@ public class TransactionsFragment extends Fragment {
                         loadTransactions();
                         updateStatistics();
                         Toast.makeText(getContext(), "Операция удалена", Toast.LENGTH_SHORT).show();
+
                     });
                 }
             }).start();
