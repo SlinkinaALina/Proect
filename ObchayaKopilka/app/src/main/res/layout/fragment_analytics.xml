@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Финансовая аналитика"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#cc9393"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="#cc9393"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tv_total_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Всего доходов: 0 ₽"
+                android:textSize="16sp"
+                android:textColor="#2e7d32"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_total_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Всего расходов: 0 ₽"
+                android:textSize="16sp"
+                android:textColor="#c62828"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Баланс: 0 ₽"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="#cc9393">
+
+            <TextView
+                android:id="@+id/tv_avg_expense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Средние расходы в день: 0 ₽"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
